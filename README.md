@@ -1,8 +1,8 @@
-* Medical page
+# Medical page
 
-** UX
+## UX
 
-** Intented users:
+### Intented users:
 - Campers
 - Hikers
 - Survivalist
