@@ -16,11 +16,11 @@
 
 #### Marketers goals:
 1. As a businessman, want to find out about new plants to sell.
-2. As a businessman, want to easily get in touch whit website creator e.g faceboob.
+2. As a businessman, want to easily get in touch whit website creator e.g facebook.
 
 #### As a Cook and Doctor:
 1. As a potential user, i want to:
-     - upgrade Biographical information
+     - Deliver feedpack information
      - buy plants from related sources
      - See the possible benefits
 
