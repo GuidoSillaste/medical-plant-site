@@ -6,29 +6,17 @@
 - Campers, Hikers and Survivalist
 - Marketers
 - Gardeners
-- Cooks, Doctors
+- Cooks
 ### User Stories
-#### Potential Camper, Hiker and Survivalist demands:
-1. When i visit first time, I want to easily navigate through the website to find the plants effortlessly.
-2. When i visit first time, i want to easily find info of plants medical property.
-3. When i visit first time, i want to easily find links to related sites for more info.
-4. When i visit first time, i want to get location of wild grown plants.
+#### Potential Goals:
+1. When they visit first time, can easily navigate through the website to find the plants effortlessly.
+2. When they visit first time, is easily find info of plants medical property.
+3. When they visit first time, easily find links to related sites for more info.
+4. When they visit first time, are able to get potential location of wild grown plants.
 
-#### Marketers goals:
-1. As a businessman, want to find out about new plants to sell.
-2. As a businessman, want to easily get in touch whit website creator e.g facebook.
+#### As a Owner :
+1. I want to:
+     - Deliver information
+     - provide links to plants from related sources
+     - Show the possible benefits
 
-#### As a Cook and Doctor:
-1. As a potential user, i want to:
-     - Deliver feedpack information
-     - buy plants from related sources
-     - See the possible benefits
-
-#### Media Enquirer Goals:
-1. A a media enquirer, I want to easily navigate to the website to get relevant information:
-     - Biographic information
-     - Sample plants
-     - contact details
-2. As a media enquirer, I want to easily find materials that could be useful for medical reserch:
-     - New links 
-     - Social links
