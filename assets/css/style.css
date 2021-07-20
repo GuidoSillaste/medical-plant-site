@@ -15,10 +15,10 @@ li {
 .imageheader {
     background-color: burlywood;
     width: 100%;
-    height: 120px;
+    height: 60px;
 }
 header {
-    height: 170px;
+    height: 110px;
     margin: 0 auto;
     position: relative;
 }
@@ -30,12 +30,18 @@ header {
     margin: 0 auto;
     background-color: ivory;
     z-index: 10;
+    color: rgb(5, 90, 43);
 }
 .logoheader {
     margin: 0 0 0 10px;
-    width: 50%;
-    font-size: 1.7vw;
+    width: 48%;
+    font-size: 28px;
     text-transform: uppercase;
+}
+.logodiv {
+    font-size: 42px;
+    width: 1.75%;
+    margin-left: 10px;
 }
 .nave {
     height: 100%;
@@ -50,33 +56,65 @@ header {
    justify-content: space-evenly;
 }
 .nave ul li {
-    background-color: cornsilk;
     border-radius: 10px;
-    padding: 3px;
+    padding: 5px;
     display: inline; 
     align-items: center;
 }
 .nave ul li a {
     text-decoration: none;
-    color: black;
-    font-size: larger;
+    color: rgb(5, 90, 43);
+    font-size: x-large;
     font-weight: 600;
+}
+.nave ul li a:hover {
+    border-radius: 10px;
+    font-size: xx-large;
+    background-color: rgba(231, 223, 190, 0.2);
+    transition: all 0.2s ease;
 }
 
 /* hero image */
 
 #main-container {
     width: 90%; 
-    margin: 10px auto;
+    margin: 20px auto;
 }
 .image-container {
     width: 100%;
     background: url('../images/lavender-5333905_1280.jpg') center center / cover no-repeat fixed;
-    height: 800px;
+    height: 760px;
+    border-radius: 10px;
 }
 .hero-header {
     position: absolute;
     z-index: 20;
     top: 300px;
-    left: 11%;
+    left: 15%;
     font-size: 2rem;
+    width: 400px;
+    background-color: rgba(240, 237, 227, 0.5);
+    padding: 0 10px 10px 10px;
+    border-radius: 20px;
+    position: absolute;
+    text-align: center;
+    height: 340px;
+}
+.hero-header h1, p {
+    color: rgb(27, 3, 94);
+    font-weight: 600;
+}
+.hero-header div a {
+    font-weight: 600;
+    border: 2px solid rgb(27, 3, 94);
+    text-decoration: none;
+    color: rgb(27, 3, 94);
+    border-radius: 20px;
+    padding: 2px;
+}
+.hero-header div a:hover {
+    padding: 0 8px 0 8px;
+    background-color: rgba(247, 236, 195, 0.5);
+    font-size: 2.2rem;
+    transition: all 0.2s ease;
+}
