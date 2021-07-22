@@ -118,3 +118,106 @@ header {
     font-size: 2.2rem;
     transition: all 0.2s ease;
 }
+/* embeded video and text*/
+
+section {
+    margin-bottom: 20px;
+}
+
+.container-trailer {
+    width: 100%;
+    height: 620px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.video-info {
+    background-color: chartreuse;
+    width: 45%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.video-info div {
+    
+    font-size: 2em;
+    border: 1px solid;
+}
+.video {
+    
+    width: 50%;
+    height: 500px;
+}
+.video iframe {
+    height: 500px;
+    width: 100%;
+}
+
+/* 3 herb section */
+
+.rdsection {
+    display: flex;
+    flex-direction: row;
+}
+.example {
+    height: 600px;
+    width: 510px;
+    border: 1px solid;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.imageBox {
+    height: 50%;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.textBox {
+    text-align: center;
+}
+.textBox div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textBox h1 {
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    background-color: coral;
+}
+.textBox p {
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+.textBox a{
+    background-color: cyan;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 0 5px;
+    font-weight: 700;
+}
+
+/*blockqute style */
+
+.center-text {
+    display: flex;
+    text-align: center;
+    height: 300px;
+    background-color: darkgoldenrod;
+    
+}
+blockquote {
+    font-size: 30px;
+    margin: 50px;
+    background-color: darkgray;
+}
