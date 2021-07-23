@@ -118,6 +118,7 @@ header {
     font-size: 2.2rem;
     transition: all 0.2s ease;
 }
+
 /* embeded video and text*/
 
 section {
@@ -220,4 +221,50 @@ blockquote {
     font-size: 30px;
     margin: 50px;
     background-color: darkgray;
+}
+
+/* footer */
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+}
+.footernav {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footernav h1 {
+    height: 40px;
+    font-size: 36px;
+}
+.footernav span {
+    font-size: 22px;
+    font-weight: 600;
+}
+.upper {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    border-bottom: 2px solid;
+}
+.lower {
+    height: 50px;
+    font-size: 30px;
+}
+.lower div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lower a {
+    margin: 7px 20px;
+}
+@media (max-width: 760px) {
+    .footernav:nth-of-type(2n) {
+        display: none;
+    }
+    .footernav {
+        width: calc(100% / 2);
+    }
 }
