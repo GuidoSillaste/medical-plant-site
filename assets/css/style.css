@@ -10,6 +10,9 @@ li {
 * {
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 /* header style */
 
 .imageheader {
@@ -27,20 +30,27 @@ header {
     display: flex;
     height: 50px;
     align-items: center;
+    justify-content: end;
     margin: 0 auto;
     background-color: ivory;
     z-index: 10;
     color: rgb(5, 90, 43);
 }
+.logo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 90, 43);
+    
+}
 .logoheader {
-    margin: 0 0 0 10px;
-    width: 48%;
     font-size: 28px;
     text-transform: uppercase;
 }
 .logodiv {
     font-size: 42px;
-    width: 1.75%;
     margin-left: 10px;
 }
 .nave {
@@ -53,27 +63,53 @@ header {
    height: 100%; 
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
 }
 .nave ul li {
+    
     border-radius: 10px;
-    padding: 5px;
-    display: inline; 
-    align-items: center;
+    padding: 0 5px;
+    width: calc(100% / 4);
+    display: block;
+    text-align: center;
 }
 .nave ul li a {
+
     text-decoration: none;
     color: rgb(5, 90, 43);
-    font-size: x-large;
+    font-size: 28px;
     font-weight: 600;
+    
 }
 .nave ul li a:hover {
     border-radius: 10px;
-    font-size: xx-large;
+    
     background-color: rgba(231, 223, 190, 0.2);
-    transition: all 0.2s ease;
+    transition: all 0.2s ;
 }
+@media (max-width: 1230px){
 
+    
+    .navbar {
+        max-width: 100%;
+    }
+    .nave {
+        width: 100%;
+    }
+}
+@media (max-width: 630px) {
+    
+    .logoheader {
+        font-size: 20px;
+    }
+    .logodiv {
+        font-size: 30px;
+        margin-left: 0;
+    }
+    .nave ul li a {
+        font-size: 22px;
+    }
+    
+}
 /* hero image */
 
 #main-container {
@@ -82,7 +118,7 @@ header {
 }
 .image-container {
     width: 100%;
-    background: url('../images/lavender-5333905_1280.jpg') center center / cover no-repeat fixed;
+    background: url('../images/lavender-5333905_1280.jpg') center center / cover no-repeat;
     height: 760px;
     border-radius: 10px;
 }
