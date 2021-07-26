@@ -43,7 +43,16 @@ header {
     align-items: center;
     justify-content: center;
     color: rgb(5, 90, 43);
-    
+    display: none;
+}
+.logoTwo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.logoheaderTwo {
+    font-size: 38px;
+    text-transform: uppercase;
 }
 .logoheader {
     font-size: 28px;
@@ -86,9 +95,15 @@ header {
     background-color: rgba(231, 223, 190, 0.2);
     transition: all 0.2s ;
 }
-@media (max-width: 1230px){
 
-    
+@media (max-width: 1300px){
+
+    .logo {
+        display: flex;
+    }
+    .logoTwo {
+        display: none;
+    }
     .navbar {
         max-width: 100%;
     }
@@ -99,7 +114,7 @@ header {
 @media (max-width: 630px) {
     
     .logoheader {
-        font-size: 20px;
+        font-size: 18px;
     }
     .logodiv {
         font-size: 30px;
@@ -119,26 +134,35 @@ header {
 .image-container {
     width: 100%;
     background: url('../images/lavender-5333905_1280.jpg') center center / cover no-repeat;
-    height: 760px;
+    height: 700px;
     border-radius: 10px;
+}
+section:first-of-type {
+    position: relative;
+    width: 100%;
+    height: 700px;
 }
 .hero-header {
     position: absolute;
     z-index: 20;
-    top: 300px;
-    left: 15%;
-    font-size: 2rem;
+    top: 180px;
+    left: 10%;
+    font-size: 2em;
+
     width: 400px;
     background-color: rgba(240, 237, 227, 0.5);
     padding: 0 10px 10px 10px;
-    border-radius: 20px;
-    position: absolute;
+    border-radius: 50px 50px 50px 50px;
     text-align: center;
     height: 340px;
 }
 .hero-header h1, p {
     color: rgb(27, 3, 94);
     font-weight: 600;
+    margin: 20px;
+}
+.hero-header h1 {
+    letter-spacing: 0.1em;
 }
 .hero-header div a {
     font-weight: 600;
@@ -155,15 +179,25 @@ header {
     transition: all 0.2s ease;
 }
 
+@media (max-width: 1300px) {
+    #main-container {
+        width: 100%;
+    }
+    .hero-header {
+        left: 50%;
+        margin-left: -200px;
+    }
+}
 /* embeded video and text*/
 
 section {
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
+    background-color: darkgreen;
 }
 
 .container-trailer {
     width: 100%;
-    height: 620px; 
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -189,10 +223,27 @@ section {
     height: 500px;
 }
 .video iframe {
-    height: 500px;
+    height: 100%;
     width: 100%;
 }
-
+@media (max-width:1300px) {
+    .container-trailer {
+        flex-direction: column;
+    }
+    .video-info {
+        width: 100%;
+    }
+    .video {
+        width: 80%;
+        height: 500px;
+    }
+}
+@media (max-width: 630px) {
+    .video {
+       width: 100vw;
+       height: 210px;
+    }
+}
 /* 3 herb section */
 
 .rdsection {
