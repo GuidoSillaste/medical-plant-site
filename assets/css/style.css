@@ -34,7 +34,7 @@ header {
     margin: 0 auto;
 }
 .navbar {
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     height: 50px;
     align-items: center;
@@ -43,7 +43,7 @@ header {
     background-color: rgb(245, 245, 176);
     z-index: 10;
     color: rgb(5, 90, 43);
-    box-shadow: 0px 1px 1px 1px gray;
+    box-shadow: 4px 4px 3px 3px lightgray;
 }
 .logo {
     display: flex;
@@ -115,9 +115,6 @@ header {
     .logoTwo {
         display: none;
     }
-    .navbar {
-        max-width: 100%;
-    }
     .nave {
         width: 100%;
     }
@@ -140,20 +137,22 @@ header {
 
 #main-container {
     width: 90%; 
-    margin: 20px auto;
+    margin: 10px auto;
 }
 .image-container {
     width: 100%;
     background: url('../images/lavender-5333905_1280.jpg') center center / cover no-repeat;
     height: 700px;
     border-radius: 10px;
+    box-shadow: 4px 4px 4px 3px gray;
 }
 section:first-of-type {
     position: relative;
     width: 100%;
     height: 700px;
 }
-.hero-header {
+.hero-header,
+.hero-header-medical {
     position: absolute;
     z-index: 20;
     top: 180px;
@@ -163,19 +162,22 @@ section:first-of-type {
     width: 400px;
     background-color: rgba(240, 237, 227, 0.7);
     padding: 0 10px 10px 10px;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 50px;
     text-align: center;
     height: 340px;
 }
-.hero-header h1, p {
+.hero-header h1, p,
+.hero-header-medical h1, p {
     color: rgb(27, 3, 94);
     font-weight: 600;
     margin: 20px;
 }
-.hero-header h1 {
+.hero-header h1,
+.hero-header-medical h1 {
     letter-spacing: 0.1em;
 }
-.hero-header div a {
+.hero-header div a,
+.hero-header-medical a{
     font-weight: 600;
     border: 2px solid rgb(27, 3, 94);
     text-decoration: none;
@@ -184,7 +186,8 @@ section:first-of-type {
     padding: 2px;
     transition: all 0.2s;
 }
-.hero-header div a:hover {
+.hero-header div a:hover,
+.hero-header-medical a:hover {
     padding: 0 8px 0 8px;
     background-color: rgba(247, 236, 195, 0.5);
     font-size: 2.2rem;
@@ -195,13 +198,17 @@ section:first-of-type {
     #main-container {
         width: 100%;
     }
-    .hero-header {
+    .hero-header,
+    .hero-header-medical {
         left: 50%;
         margin-left: -200px;
     }
+
     @media (max-width:400px) {
-        .hero-header {
-            width: 388px;
+        .hero-header, .hero-header-medical {
+            width: 350px;
+            margin-left: -175px;
+            height: 370px;
         }
     }
 }
@@ -263,8 +270,13 @@ section {
 
 }
 /* 3 herb section */
+.rdsection h1 {
+    font-size: 38px;
+    text-align: center;
+    margin: 80px 0 80px 0;
 
-.rdsection {
+}
+.plantsThree {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -280,16 +292,12 @@ section {
     height: 600px;
     background-color: rgba(245, 222, 195, 0.5);
 }
-.imageBox {
+
+img {
     height: 300px;
     width: 100%;
-    border-bottom: 1px solid;
-}
-img {
-    height: 100%;
-    width: 100%;
     border-radius: 20px 20px 0 0;
-    margin-bottom: 10px;
+    border-bottom: 1px solid;
 }
 .textbox {
     display: flex;
@@ -305,7 +313,8 @@ img {
 .example p {
     font-size: 20px;
 }
-.example a{
+.example a,
+.com-item a{
     background-color: rgb(89, 231, 108);
     color: black;
     font-size: 20px;
@@ -317,14 +326,15 @@ img {
     transition: all 0.2s;
     margin: 0 auto;
 }
-.example a:hover {
+.example a:hover,
+.com-item a:hover {
     box-shadow: 4px 4px 3px 2px gray;
     background-color: rgb(42, 236, 74);
     transform: scale(1.1);
 }
 
 @media (max-width: 700px) {
-    .rdsection {
+    .plantsThree {
         flex-direction: column;
     }
     .example {
@@ -333,7 +343,7 @@ img {
     }
 }
 @media (min-width: 710px) and (max-width: 1700px) {
-    .rdsection {
+    .plantsThree {
         flex-direction: column;
     }
     .example {
@@ -434,4 +444,62 @@ footer {
     .footernav {
         width: calc(100% / 2);
     }
+}
+
+/* medical page hero section */
+
+.image-container-medical {
+    background-image: url('../images/cup-829527_1280.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+.hero-header-medical {
+    height: 250px;
+}
+/* meidcal plant boxes */
+
+.common {
+    width: 100%;
+    
+}
+.first-line {
+    font-size: 3em;
+    padding: 30px;
+    margin: 30px;
+}
+.com-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.secound-line {
+    font-size: 2.5em;
+    
+}
+.com-item {
+    width: 400px;
+    height: 660px;
+    background-color: rgb(247, 242, 235);
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    border: 1px solid;
+}
+.com-text {
+    display: flex;
+    flex-direction: column;
+}
+.com-text h2{
+    letter-spacing: 0.1em;
+    
+}
+.com-text p {
+    font-size: 1.3em;
 }
