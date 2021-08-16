@@ -291,6 +291,7 @@ section {
     border-radius: 20px;
     height: 600px;
     background-color: rgba(245, 222, 195, 0.5);
+    box-shadow: 4px 4px 4px 4px gray;
 }
 
 img {
@@ -302,6 +303,9 @@ img {
 .textbox {
     display: flex;
     flex-direction: column;
+    background-color: tan;
+    height: 300px;
+    border-radius: 0 0 20px 20px;
 }
 .example  h1 {
     font-size: 30px;
@@ -309,9 +313,14 @@ img {
     margin: 0; 
     background-color: rgba(123, 243, 129, 0.2); 
     box-shadow: 1px 1px 1px gray;
+    height: 40px;
 }
 .example p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
+    height: 210px;
 }
 .example a,
 .com-item a{
@@ -338,16 +347,16 @@ img {
         flex-direction: column;
     }
     .example {
-        width: calc(300% / 3);
-        margin: 10px 0;
+        width: calc(270% / 3);
+        margin: 10px auto;
     }
 }
-@media (min-width: 710px) and (max-width: 1700px) {
+@media (min-width: 710px) and (max-width: 1060px) {
     .plantsThree {
         flex-direction: column;
     }
     .example {
-        width: 90vw;
+        width: 700px;
         flex-direction: row;
         height: 310px;
         margin-bottom: 30px;
@@ -360,6 +369,7 @@ img {
         width: 45%;
     }
     img {
+        height: 100%;
         border-radius: 20px 0 0 20px;
         margin-bottom: 0;
     }
@@ -371,6 +381,13 @@ img {
     .textbox h1 {
         font-size: 36px;
         border-radius: 0 20px 0 0;
+    }
+    .textbox p {
+        height: 220px;
+        display: flex;
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
     }
     .textbox a {
         font-size: 24px;
@@ -476,9 +493,9 @@ footer {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-flow: row wrap;
     flex-direction: row;
     justify-content: space-around;
-    padding: 20px;
 }
 .secound-line {
     font-size: 2.5em;
@@ -491,10 +508,13 @@ footer {
     padding: 20px 20px 0 20px;
     text-align: center;
     border: 1px solid;
+    margin: 10px 0 10px 0;
+    box-shadow: 3px 3px 3px 3px gray;
 }
 .com-text {
     display: flex;
     flex-direction: column;
+    height: 310px;
 }
 .com-text h2{
     letter-spacing: 0.1em;
@@ -502,4 +522,22 @@ footer {
 }
 .com-text p {
     font-size: 1.3em;
+}
+.hero-header-medical h1, p {
+    margin: 0 0 20px 0;
+}
+.btn-container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-page {
+    height: 260px;
+}
+
+@media (max-width: 1000px) {
+.com-comtainer {
+    
+}
 }
