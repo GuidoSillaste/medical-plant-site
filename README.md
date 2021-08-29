@@ -1,5 +1,7 @@
-# Medical page
+# Medical plants
+This website was created to introduce diffrent medical plants that would otherwise be forgoten or missunderstood. It provides a basic intoduction of herbs and a herbalist that describes some of the beneficial effects of medical plants. I divided the medical plants to 3 diffrent categorys where each one gets either harder to find or is suppresesd by bigpharma.
 
+This is the first of five Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute.
 ## UX
 
 ### Intented users:
