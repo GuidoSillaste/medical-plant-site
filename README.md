@@ -102,3 +102,16 @@ Has a form and contacts
 - Github used to store the repository.
 - Google fonts was used for all text on the site.
 - Fontawesome used for icons.
+
+### Testing
+
+Basic user testing works.
+
+During testing box images did nothold size properly, text overflowed and buttons did not stay in place.This was fixed by making 3 divs inside the box for image,text and button.
+
+Footer did not stay at the bottom of the page when no content. Was fixed by making the body a grid and giving it min height and space fill for main div.
+
+Some of the new tabs did not work at first was fixed by adding _blank.
+
+The live site has been tested on Firefox. The site has also been tested on several devices using dev tools to confirm that its responsive on all devices.
+
