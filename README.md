@@ -2,6 +2,32 @@
 This website was created to introduce diffrent medical plants that would otherwise be forgoten or missunderstood. It provides a basic intoduction of herbs and a herbalist that describes some of the beneficial effects of medical plants. I divided the medical plants to 3 diffrent categorys where each one gets either harder to find or is suppresesd by bigpharma.
 
 This is the first of five Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute.
+
+Responsiveness picture missing
+
+## Demo 
+A live demo of the site can be found  [here]
+
+## Table of contents
+- [UX](#UX)
+    1. [Ideal User Demographic]
+    2. [User Stories]
+    3. [Development Planes]
+    4. [Design]
+    1. [Design Features]
+    2. [Existing Features]
+    3. [Features to Implement in the future]
+- [Technologies Used](#Technologies-Used)
+    1. [Languages Used]
+    2. [Programs Used]
+- [Testing](#Testing)
+- [Deployment]
+     1. [Deploying on GitHub Pages]
+- [Credits]
+     1. [Content]
+     2. [Media]
+     3. [Code]
+
 ## UX
 
 ### Intented users:
