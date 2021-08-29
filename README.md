@@ -87,6 +87,10 @@ Page purpose
 - Contact page
 Has a form and contacts
 
+#### Features left to implement
+
+On this site many updates are still to follow making it bigger and whit more options. Which includes a search option whit the help of javascript. A lot of medical plants are still unknown.
+
 ### Technologies Used
 
 #### Languages
@@ -141,10 +145,11 @@ This site was deployed using GitHub Pages with the following the steps below:
 - The image from the landing page was taken from [Pixabay](https://pixabay.com/)
 - The image from the contact me page was taken from [Freeimages](https://www.freeimages.com/)
 
-#### Code 
+#### Code
 
-I looked in multiple sites in order to better understand the code i was trying to implement. 
+I looked in multiple sites in order to better understand the code i was trying to implement.
 
 The following sites were used on a more regular basis:
+
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
