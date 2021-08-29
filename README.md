@@ -14,17 +14,17 @@ A live demo of the site can be found  [here]
 
 - [UX](#UX)
   - [User Stories](#User-Stories)
-    - [Design](#Design)
-    - [Features](#Features)
+  - [Design](#Design)
+  - [Features](#Features)
 - [Technologies Used](#Technologies-Used)
-  - [Languages]
-    - [Programs]
+  - [Languages](#Languages)
+  - [Programs](#Programs)
 - [Testing](#Testing)
 - [Deployment]
 - [Credits]
   - [Content]
-    - [Media]
-    - [Code]
+  - [Media]
+  - [Code]
 
 ## UX
 
@@ -86,3 +86,19 @@ Page purpose
 
 - Contact page
 Has a form and contacts
+
+### Technologies Used
+
+#### Languages
+
+- HTML
+- CSS
+
+#### Programs
+
+- Figma for wireframes.
+- Virtual code studio for code
+- Git to store the code changes.
+- Github used to store the repository.
+- Google fonts was used for all text on the site.
+- Fontawesome used for icons.
