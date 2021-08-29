@@ -130,3 +130,21 @@ This site was deployed using GitHub Pages with the following the steps below:
 
 ### Credits
 
+#### Content
+
+- The fonts were taken from [Google fonts](https://fonts.google.com/).
+- The icons in the footer were taken from [Fontawesome](https://fontawesome.com/).
+- Help with coding was taken from [https://www.w3schools.com/]
+
+#### Media
+
+- The image from the landing page was taken from [Pixabay](https://pixabay.com/)
+- The image from the contact me page was taken from [Freeimages](https://www.freeimages.com/)
+
+#### Code 
+
+I looked in multiple sites in order to better understand the code i was trying to implement. 
+
+The following sites were used on a more regular basis:
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
