@@ -20,11 +20,11 @@ A live demo of the site can be found  [here]
   - [Languages](#Languages)
   - [Programs](#Programs)
 - [Testing](#Testing)
-- [Deployment]
-- [Credits]
-  - [Content]
-  - [Media]
-  - [Code]
+- [Deployment](#Deployment)
+- [Credits](#Credits)
+  - [Content](#Content)
+  - [Media](#Media)
+  - [Code](#code)
 
 ## UX
 
@@ -114,4 +114,19 @@ Footer did not stay at the bottom of the page when no content. Was fixed by maki
 Some of the new tabs did not work at first was fixed by adding _blank.
 
 The live site has been tested on Firefox. The site has also been tested on several devices using dev tools to confirm that its responsive on all devices.
+
+### Deployment
+
+This site was deployed using GitHub Pages with the following the steps below:
+
+1. Login or Sign Up to [GitHub](www.github.com).
+2. Create a new repository named "medical-plant-site".
+3. Once created, click on "Settings" on the navigation bar under the repository title.
+4. Click on "Pages", on the left hand side below Secrets.
+5. Under "Source" choose branch you wish to deploy in most cases it will be "main".
+6. Choose which folder to deploy from, generally from "/root".
+7. Click "Save", then wait for it to be deployed.
+8. The URL will be displayed above the "source" section in GitHub Pages.
+
+### Credits
 
