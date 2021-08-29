@@ -10,32 +10,27 @@ A live demo of the site can be found  [here]
 
 ## Table of contents
 - [UX](#UX)
-    1. [Ideal User Demographic]
-    2. [User Stories]
-    3. [Development Planes]
-    4. [Design]
-    1. [Design Features]
-    2. [Existing Features]
-    3. [Features to Implement in the future]
+    - [User Stories](#User-Stories)
+    - [Design](#Design)
+    - [Features](#Features)
 - [Technologies Used](#Technologies-Used)
-    1. [Languages Used]
-    2. [Programs Used]
+    - [Languages]
+    - [Programs]
 - [Testing](#Testing)
 - [Deployment]
-     1. [Deploying on GitHub Pages]
 - [Credits]
-     1. [Content]
-     2. [Media]
-     3. [Code]
+     - [Content]
+     - [Media]
+     - [Code]
 
 ## UX
 
+### User Stories
 ### Intented users:
 - Campers, Hikers and Survivalist
 - Marketers
 - Gardeners
 - Cooks
-### User Stories
 #### Potential Goals:
 1. When they visit first time, can easily navigate through the website to find the plants effortlessly.
 2. When they visit first time, is easily find info of plants medical property.
@@ -48,3 +43,19 @@ A live demo of the site can be found  [here]
      - provide links to plants from related sources
      - Show the possible benefits
 
+### Design
+
+#### Colour Scheme
+The main colours used throughout the website are a mixture of blue and lightbrown, with Red for footer hover.
+
+#### Typography
+The pairing of the fonts [Roboto](https://fonts.google.com/specimen/Roboto "Link to Roboto Google Font") and [Lato](https://fonts.google.com/specimen/Lato "Link to Lato Google Font") is used throughout the website with Sans Serif as the fallback font in case of import failure. 
+
+For features that needed to be highlighted, such as the featured single on the Homepage, the font [Montserrat](https://fonts.google.com/specimen/Montserrat "Link to Montserrat Google Font") was used, with Sans Serif as the fallback. This was in order to create a consistency with the digital artwork of the single's release.
+
+#### Imagery
+For images were specially chosen to fit plants used
+
+The imagery  visually represents the purpose of the website.
+
+All imagery provides alternative text to be used in the event that the element cannot be rendered. 
