@@ -166,13 +166,13 @@ header {
     border-radius: 50px;
     text-align: center;
 }
-.hero-header h2 p,
-.hero-header-medical h2 p {
+.hero-header h1 p,
+.hero-header-medical h1 p {
     color: rgb(27, 3, 94);
     font-weight: 600;
 }
-.hero-header h2,
-.hero-header-medical h2 {
+.hero-header h1,
+.hero-header-medical h1 {
     letter-spacing: 0.1em;
 }
 .hero-header div a,
@@ -249,6 +249,7 @@ header {
     .container-trailer {
         flex-direction: column;
         text-align: center;
+        padding: 0;
     }
     .video-info {
         width: 100%;
@@ -269,7 +270,7 @@ header {
     }
 }
 /* 3 herb section */
-.rdsection h2 {
+.rdsection h1 {
     font-size: 38px;
     text-align: center;
     padding: 80px;
@@ -333,8 +334,11 @@ header {
     transform: scale(1.1);
 }
 @media (max-width: 600px) {
+    .rdsection h1 {
+        padding: 80px 0;
+    }
     .example {
-        width: calc(240% / 3);
+        width: calc(285% / 3);
         margin: 10px auto;
     }
     .plantsThree {
