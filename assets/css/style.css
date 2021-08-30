@@ -486,6 +486,7 @@ footer {
     font-size: 3em;
     padding: 30px;
     margin: 30px;
+    text-align: center;
 }
 .com-container {
     width: 100%;
@@ -503,7 +504,7 @@ footer {
     width: 400px;
     height: 660px;
     background-color: rgb(247, 242, 235);
-    padding: 20px 20px 0 20px;
+    padding: 10px 10px 0 10px;
     text-align: center;
     border: 1px solid;
     margin: 10px 0 10px 0;
@@ -517,7 +518,6 @@ footer {
 }
 .com-text h2{
     letter-spacing: 0.1em;
-    
 }
 .com-text p {
     font-size: 1.3em;
