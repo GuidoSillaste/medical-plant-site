@@ -123,7 +123,7 @@ The live site has been tested on Firefox. The site has also been tested on sever
 
 This site was deployed using GitHub Pages with the following the steps below:
 
-1. Login or Sign Up to [GitHub](www.github.com).
+1. Login or Sign Up to [GitHub](https://github.com/login "Link to GitHub login page")
 2. Create a new repository named "medical-plant-site".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
 4. Click on "Pages", on the left hand side below Secrets.
