@@ -286,14 +286,14 @@ section {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: calc(80% / 3);
+    justify-content: space-between;
+    width: calc(90% / 3);
     border: 1px solid;
     border-radius: 20px;
-    height: 600px;
+    height:100%;
     background-color:rgb(247, 242, 235);
     box-shadow: 4px 4px 4px 4px gray;
 }
-
 .normal-img {
     height: 300px;
     width: 100%;
@@ -303,20 +303,15 @@ section {
 .textbox {
     display: flex;
     flex-direction: column;
-    background-color: rgb(247, 242, 235);
     height: 300px;
-    border-radius: 0 0 20px 20px;
 }
-.example  h1 {
+.example  h2 {
     font-size: 30px;
     letter-spacing: 0.1rem;
     margin: 0; 
     height: 40px;
 }
 .example p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 20px;
     height: 210px;
 }
@@ -339,17 +334,25 @@ section {
     background-color: rgb(42, 236, 74);
     transform: scale(1.1);
 }
-
-@media (max-width: 700px) {
+@media (max-width: 600px) {
+    .example {
+        width: calc(240% / 3);
+        margin: 10px auto;
+    }
     .plantsThree {
         flex-direction: column;
     }
+}
+@media (min-width: 601px) and (max-width: 750px) {
     .example {
-        width: calc(270% / 3);
+        width: calc(195% / 3);
         margin: 10px auto;
     }
+    .plantsThree {
+        flex-direction: column;
+    }
 }
-@media (min-width: 710px) and (max-width: 1060px) {
+@media (min-width: 751px) and (max-width: 1099px) {
     .plantsThree {
         flex-direction: column;
     }
@@ -360,35 +363,31 @@ section {
         margin-bottom: 30px;
         margin: 20px auto;
     }
-    .imageBox {
-        height: 310px;
-        border-bottom: none;
-        border-right: 1px solid;
-        width: 45%;
-    }
     .image {
         height: 100%;
-        border-radius: 20px 0 0 20px;
-        margin-bottom: 0;
+        border-radius: 20px;
+        width: 50%;
     }
     .textbox {
-        width: 55%;
+        width: 50%;
         height: 100%;
         border-radius: 0 20px 0 0;
     }
-    .textbox h1 {
+    .textbox h2 {
         font-size: 36px;
         border-radius: 0 20px 0 0;
     }
     .textbox p {
         height: 220px;
-        display: flex;
         font-size: 18px;
-        align-items: center;
-        justify-content: center;
     }
     .textbox a {
         font-size: 24px;
+    }
+}
+@media (min-width:1100px) and (max-width: 1170px) {
+    .example {
+        width: calc(96% / 3);
     }
 }
 /*blockqute style */
