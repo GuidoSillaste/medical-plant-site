@@ -162,25 +162,28 @@ header {
     left: 10%;
     font-size: 1.5em;
     width: 400px;
-    background-color: rgba(240, 237, 227, 0.9);
+    background-color:rgba(104, 65, 22, 0.8);
     border-radius: 50px;
     text-align: center;
+    color:aliceblue;
 }
 .hero-header h1 p,
 .hero-header-medical h1 p {
-    color: rgb(27, 3, 94);
+    color: aliceblue;
     font-weight: 600;
 }
 .hero-header h1,
 .hero-header-medical h1 {
     letter-spacing: 0.1em;
+    color:aliceblue;
 }
 .hero-header div a,
 .hero-header-medical a{
     font-weight: 600;
-    border: 2px solid rgb(27, 3, 94);
+    border: 2px solid rgba(104, 65, 22, 0.8);
     text-decoration: none;
-    color: rgb(27, 3, 94);
+    background-color: rgb(104, 65, 22);
+    color:aliceblue;
     border-radius: 20px;
     font-size: 2rem;
     padding: 5px;
@@ -190,7 +193,7 @@ header {
 .hero-header-medical a:hover {
     padding: 8px 8px;
     border-radius: 30px;
-    background-color: rgba(247, 236, 195, 0.5);
+    background-color:  rgba(58, 34, 9, 0.8);
     font-size: 2.2rem;
     transform: scale(1.05);
 }
@@ -477,6 +480,10 @@ footer {
 .hero-header-medical {
     height: 250px;
 }
+.hero-header-medical h1 p {
+    margin: 20px;
+    color:#062170;
+}
 /* meidcal plant boxes */
 
 .common {
@@ -522,9 +529,6 @@ footer {
 .com-text p {
     font-size: 1.3em;
 }
-.hero-header-medical h1, p {
-    margin: 20px;
-}
 .btn-container{
     height: 70px;
     display: flex;
@@ -553,13 +557,11 @@ footer {
 /* about us page */
 .about-container {
     width: 100%;
-    
 }
 #about {
     height: 1200px;
     display: flex;
     align-items: center;
-    
     width: 100%;
     background: url('../images/R.0c8941fea5896f0b013715e262c307dd.jpg') no-repeat center center;
 }
@@ -567,30 +569,30 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 10px;
+    color: aliceblue;
 }
 
 .about-text {
-    width: 755px;
-    height: 650px;
+    width: 525px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px auto;
-    padding: 30px;
-    background-color: rgba(245, 222, 195, 0.6);
+    padding: 10px;
+    background-color: rgba(104, 65, 22, 0.8);
     border-radius: 25% 0 200px 0;
+    color: aliceblue;
 }
 .about-text p {
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
 }
 blockquote {
-    height: 175px;
-    font-size: 30px;
-    padding: 20px;
+    font-size: 26px;
     text-align: center;
     display: flex;
     flex-direction: column;
