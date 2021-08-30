@@ -4,11 +4,11 @@ This website was created to introduce diffrent medical plants that would otherwi
 
 This is the first of five Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute.
 
-Responsiveness picture missing
+![Responsiveness](assets/markupimage/responsive-times.png)
 
 ## Demo
 
-A live demo of the site can be found  [here]
+A live demo of the site can be found  [here](https://guidosillaste.github.io/medical-plant-site/)
 
 ## Table of contents
 
