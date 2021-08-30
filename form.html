@@ -27,30 +27,132 @@
           <div class="nave">
               <ul>
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="medical.html">Medicine</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="form.html">Contacts</a></li>
+                  <li><a href="2page.html">Medicine</a></li>
+                  <li><a href="3page.html">About</a></li>
+                  <li><a href="4page.html" class="active">Contacts</a></li>
               </ul>
           </div>
       </nav>
       
     </header>  
-    <main>
-
+    <main id="main-container">
+        <section class="first">
+            <div class="contact-container">
+            <div class="first-text-container">
+            <h1>Contact information</h1>
+            <p>Contact Medical plants by phone, postal mail, email or through sites online form. You can submit question, comments, recommend new plants or request infromation about medical plants.</p>
+            <table>
+                <tr>
+                    <th>Contact Options</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    
+                    <th>Phone Number</th>
+                    <th>372 9584 8373</th>	
+                </tr>
+                <tr>
+                    
+                    <td>Email</td>
+                    <td>Dr.Plant@medicalplants.com</td>
+                </tr>
+                <tr>
+                    
+                    <td>Social Media</td>
+                    <td> <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></td>
+                </tr>	
+            </table>
+            </div>
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <h1>Form</h1>
+                <fieldset>
+                    <legend>Your details:</legend>
+            
+                    <div class="details">
+                        <label for="name-field" class="block-label">Name</label>
+                        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                    </div>
+                    <div class="details">
+                        <label for="email-field" class="block-label">Email</label>
+                        <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div class="details">
+                        <label for="phone-field" class="block-label">Phone</label>
+                        <input id="phone-field" type="number" name="phone" placeholder="Your phone number" required>
+                    </div>
+                    <div class="details">
+                        <label for="country-field" class="block-label">Email</label>
+                        <input id="country-field" type="text" name="country" placeholder="Your current country">
+                    </div>
+               </fieldset>
+                <fieldset>
+                    <legend>Plant changes/updates</legend>
+                    <div>
+                        <label for="plant-type" class="block-label">What category plant to you want to add?</label>
+                        <input id="plant-type" list="type" name="plant-type" required>
+                        <datalist id="type">
+                            <option value="Common">
+                            <option value="Rare">
+                            <option value="Highly regulated">
+                        </datalist>
+                    </div>
+        
+                    <p>Is the plant eatable?</p>
+        
+                    <input id="eatable" name="eatable" value="yes" type="radio" required>
+                    <label for="eatable">Yes</label>
+        
+                    <input id="noteatable" name="noteatable" value="no" type="radio" required>
+                    <label for="noteatable">No</label>
+        
+                    <p>Where does the plant grow?</p>
+                    <div>
+                        <input type="checkbox" id="temperate" name="temperate">
+                        <label for="temperate">Temperate</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tropical" name="tropical">
+                        <label for="tropical">Tropical</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tundra" name="tundra">
+                        <label for="tundra">Tundra</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="all-regions" name="all-regions">
+                        <label for="all-regions">All regions</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Feedback and Description</legend>
+                    <label for="feedback" class="">How can we improve your experience with us?</label>
+                    
+                    <textarea id="feedback" rows="4" cols="70" name="feedback" placeholder="Feedback and Description"></textarea>
+                </fieldset>
+                <div class="submit-data">
+                    <input type="submit" class="" value="Enter prize draw">
+		            <input type="reset" value="Reset Form">
+                </div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
       <div class="container-footer">
           <div class="upper">
               <div class="footernav">
                   <span><a href="index.html">Home</a></span>
-                  <span><a href="medical.html">Medicine</a></span>
+                  <span><a href="2page.html">Medicine</a></span>
               </div>
               <div class="footernav">
                   <h1>Medical plants</h1>
               </div>
               <div class="footernav">
-                  <span><a href="about.html">About</a></span>
-                  <span><a href="form.html">Contacts</a></span>
+                  <span><a href="3page.html">About</a></span>
+                  <span><a href="4page.html">Contacts</a></span>
               </div>
           </div>
           <div class="lower">
@@ -63,6 +165,6 @@
           </div>
       </div>
   </footer>
-<script src="https://kit.fontawesome.com/a1ed16b4ac.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a1ed16b4ac.js" crossorigin="anonymous"></script>
 </body>
 </html>
