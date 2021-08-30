@@ -31,7 +31,7 @@ a {
 header {
     width: 100%;
     height: 110px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 }
 .navbar {
     max-width: 100%;
@@ -151,26 +151,25 @@ header {
     width: 100%;
     height: 700px;
 }
+.hero-header {
+    height: 250px;
+}
 .hero-header,
 .hero-header-medical {
     position: absolute;
     z-index: 20;
     top: 180px;
     left: 10%;
-    font-size: 2em;
-
+    font-size: 1.5em;
     width: 400px;
-    background-color: rgba(240, 237, 227, 0.7);
-    padding: 10px;
+    background-color: rgba(240, 237, 227, 0.9);
     border-radius: 50px;
     text-align: center;
-    height: 340px;
 }
 .hero-header h1 p,
 .hero-header-medical h1 p {
     color: rgb(27, 3, 94);
     font-weight: 600;
-    
 }
 .hero-header h1,
 .hero-header-medical h1 {
@@ -183,12 +182,14 @@ header {
     text-decoration: none;
     color: rgb(27, 3, 94);
     border-radius: 20px;
+    font-size: 2rem;
     padding: 5px;
     transition: all 0.2s;
 }
 .hero-header div a:hover,
 .hero-header-medical a:hover {
-    padding: 0 8px 0 8px;
+    padding: 8px 8px;
+    border-radius: 30px;
     background-color: rgba(247, 236, 195, 0.5);
     font-size: 2.2rem;
     transform: scale(1.05);
@@ -214,9 +215,7 @@ header {
 }
 /* embeded video and text*/
 
-section {
-    margin: 20px 0 20px 0;
-}
+
 
 .container-trailer {
     width: 100%;
@@ -224,14 +223,15 @@ section {
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
+    background-color: lightyellow;
+    padding: 20px;
 }
 .video-info {
-    width: 45%;
+    width: 50%;
     height: 500px;
     display: flex;
     align-items: center;
-    text-align: center;
-    
+    text-align: center;  
 }
 .video-info div {
     font-size: 2em;
@@ -243,6 +243,7 @@ section {
 .video iframe {
     height: 100%;
     width: 100%;
+    border: none;
 }
 @media (max-width:1300px) {
     .container-trailer {
@@ -266,15 +267,12 @@ section {
     .container-trailer {
         font-size: 12px;
     }
-    
-
 }
 /* 3 herb section */
 .rdsection h1 {
     font-size: 38px;
     text-align: center;
-    margin: 80px 0 80px 0;
-
+    padding: 80px;
 }
 .plantsThree {
     display: flex;
