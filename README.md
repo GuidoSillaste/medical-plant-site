@@ -4,7 +4,7 @@ This website was created to introduce diffrent medical plants that would otherwi
 
 This is the first of five Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute.
 
-![Responsiveness](assets/markupimage/responsive-times.png)
+![Responsiveness](assets/markupimage/Responsive.png)
 
 ## Demo
 
