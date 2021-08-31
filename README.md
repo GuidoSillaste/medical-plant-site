@@ -76,16 +76,18 @@ All imagery provides alternative text to be used in the event that the element c
 The features of the site are very basic. Navigation bar stays at the top allowing to access all parts of the site. Footer stays at the bottom of the page giving people the option to navigate to all parts of the site. Landing page is simple whit a opening hero image followed by a herbalist intro and 3 sample plants. medical plants page is again starts whit a hero and is followed by 3x4 boxes of plants based on there difficulty to get. ON about page i make a simple intro to why the page would be benefit you.On contact page i give you a chance to fill in a form if you want to add a plant and why and contact table.
 
 - Landing page
-A simple landing page
+![homepage](assets/markupimage/Homepage.png)
 
 - Medical page
-Has many medical plants
+![medicalpage](assets/markupimage/Medical-page.png)
 
 - About page
-Page purpose
+![homepage](assets/markupimage/about-page.png)
+
 
 - Contact page
-Has a form and contacts
+![homepage]
+
 
 #### Features left to implement
 
