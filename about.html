@@ -10,7 +10,13 @@
       <link rel="stylesheet" href="assets/css/style.css">
    </head>
    <body>
+     
+      <!-- HEADER -->
+
       <header>
+
+        <!--Hidden Header Logo appears once on small screen -->
+
          <div class="imageheader">
             <div class="logo">
                <div class="logodiv"><i class="fab fa-pagelines"></i></div>
@@ -19,26 +25,41 @@
                </div>
             </div>
          </div>
-         <nav class="navbar">
+
+         <!-- Navigation Bar -->
+
+         <!--First header logo goes away on small screen -->
+
+         <nav class="navbar" aria-label="Navigation Bar">
             <div class="logoTwo">
-               <div class="logodiv"><i class="fab fa-pagelines"></i></div>
-               <div class="logoheaderTwo">
-                  <h1>Medical plants</h1>
-               </div>
+                <div class="logodiv"><i class="fab fa-pagelines"></i></div>
+                <div class="logoheader">
+                   <h1>Medical plants</h1>
+                </div>
+             </div>
             </div>
+
+            <!-- Nav Links -->
+
             <div class="nave">
                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="medical.html">Medicine</a></li>
-                  <li><a href="about.html" class="active">About</a></li>
-                  <li><a href="form.html">Contacts</a></li>
+                  <li><a href="index.html"  aria-label="Homepage">Home</a></li>
+                  <li><a href="medical.html" aria-label="Medical plants">Medicine</a></li>
+                  <li><a href="about.html"  class="active" aria-label="About page">About</a></li>
+                  <li><a href="form.html" aria-label="Contact page">Contacts</a></li>
                </ul>
             </div>
          </nav>
       </header>
-      <main id="main-container" class="background-about">
+
+      <!-- MAIN SECTION -->
+
+      <main id="main-container" class="background-about" aria-label="About page main section">
          <section id="about">
             <div class="about-container">
+
+                 <!-- Text for hero image -->
+
                <div class="about-text">
                   <h1 class="about-heading">About Medical plants</h1>
                   <p>At Herbal site, i want to give people a oppurtunity to learn of proven herbs that can be
@@ -54,7 +75,7 @@
                </div>
             </div>
          </section>
-         <section id="contact">
+         <section id="contact" aria-label="Gains of learning about plants">
             <hr>
             <div class="more-container">
                <h1>Why learn more about Medical Plants</h1>
@@ -79,31 +100,37 @@
             </div>
          </section>
       </main>
-      <footer>
-         <div class="container-footer">
-            <div class="upper">
-               <div class="footernav">
-                  <span><a href="index.html">Home</a></span>
-                  <span><a href="medical.html">Medicine</a></span>
-               </div>
-               <div class="footernav">
-                  <h1>Medical plants</h1>
-               </div>
-               <div class="footernav">
-                  <span><a href="about.html">About</a></span>
-                  <span><a href="form.html">Contacts</a></span>
-               </div>
-            </div>
-            <div class="lower">
-               <div>
-                  <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-                  <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
-                  <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <script src="https://kit.fontawesome.com/a1ed16b4ac.js" crossorigin="anonymous"></script>
-   </body>
+
+      <!-- FOOTER -->
+
+      <footer aria-label="Footer containing Social Icons">
+        <div class="container-footer">
+           <div class="upper">
+              <div class="footernav">
+                 <span><a href="index.html" aria-label="Home">Home</a></span>
+                 <span><a href="medical.html" aria-label="Medical page">Medicine</a></span>
+              </div>
+              <div class="footernav">
+                 <h1>Medical plants</h1>
+              </div>
+              <div class="footernav">
+                 <span><a href="about.html" aria-label="About page">About</a></span>
+                 <span><a href="form.html" aria-label="Contact page">Contacts</a></span>
+              </div>
+           </div>
+           <div class="lower">
+              <div>
+                 <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                 <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              </div>
+           </div>
+        </div>
+     </footer>
+
+     <!-- Scripts -->
+     
+     <script src="https://kit.fontawesome.com/a1ed16b4ac.js" crossorigin="anonymous"></script>
+  </body>
 </html>

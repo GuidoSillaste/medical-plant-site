@@ -10,7 +10,13 @@
       <link rel="stylesheet" href="assets/css/style.css">
    </head>
    <body>
+  
+      <!-- HEADER -->
+
       <header>
+
+        <!--Hidden Header Logo appears once on small screen -->
+
          <div class="imageheader">
             <div class="logo">
                <div class="logodiv"><i class="fab fa-pagelines"></i></div>
@@ -19,33 +25,54 @@
                </div>
             </div>
          </div>
-         <nav class="navbar">
+
+         <!-- Navigation Bar -->
+
+         <!--First header logo goes away on small screen -->
+
+         <nav class="navbar" aria-label="Navigation Bar">
             <div class="logoTwo">
-               <div class="logodiv"><i class="fab fa-pagelines"></i></div>
-               <div class="logoheaderTwo">
-                  <h1>Medical plants</h1>
-               </div>
+                <div class="logodiv"><i class="fab fa-pagelines"></i></div>
+                <div class="logoheader">
+                   <h1>Medical plants</h1>
+                </div>
+             </div>
             </div>
+
+            <!-- Nav Links -->
+
             <div class="nave">
                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="medical.html" class="active">Medicine</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="form.html">Contacts</a></li>
+                  <li><a href="index.html"  aria-label="Homepage">Home</a></li>
+                  <li><a href="medical.html" class="active" aria-label="Medical plants">Medicine</a></li>
+                  <li><a href="about.html" aria-label="About page">About</a></li>
+                  <li><a href="form.html" aria-label="Contact page">Contacts</a></li>
                </ul>
             </div>
          </nav>
       </header>
-      <main id="main-container">
-         <section class="hero-image">
+
+      <!-- MAIN SECTION -->
+
+      <main id="main-container" aria-label="Medical page main section">
+         <section class="hero-image" aria-label="Hero image">
+
+            <!-- Hero Image container embty-->
+
             <div class="image-container-medical"></div>
+
+            <!-- Text for hero image -->
+
             <div class="hero-header-medical">
                <h1>Calming Tea</h1>
                <p>Chamomill Tea helping us relax since 500 <b>B.C</b></p>
                <div><a href="https://www.verywellhealth.com/the-benefits-of-chamomile-89436" target="_blank" rel="noopener">Learn More</a></div>
             </div>
          </section>
-         <section>
+
+         <!-- Three tiers of diffrent plants -->
+
+         <section aria-label="Three stacks of plants">
             <h1 class="first-line">Diffrent medical plant types to choose from.</h1>
             <div class="common">
                <h2 class="secound-line">Common medical plants:</h2>
@@ -100,8 +127,6 @@
                   </div>
                </div>
             </div>
-         </section>
-         <section>
             <div class="common">
                <h2 class="secound-line">Rare medical plants:</h2>
                <div class="com-container">
@@ -155,8 +180,6 @@
                   </div>
                </div>
             </div>
-         </section>
-         <section>
             <div class="common">
                <h2 class="secound-line">Highly regulated plants:</h2>
                <div class="com-container">
@@ -212,31 +235,37 @@
             </div>
          </section>
       </main>
-      <footer>
-         <div class="container-footer">
-            <div class="upper">
-               <div class="footernav">
-                  <span><a href="index.html">Home</a></span>
-                  <span><a href="medical.html">Medicine</a></span>
-               </div>
-               <div class="footernav">
-                  <h1>Medical plants</h1>
-               </div>
-               <div class="footernav">
-                  <span><a href="about.html">About</a></span>
-                  <span><a href="form.html">Contacts</a></span>
-               </div>
-            </div>
-            <div class="lower">
-               <div>
-                  <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-                  <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
-                  <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <script src="https://kit.fontawesome.com/a1ed16b4ac.js" crossorigin="anonymous"></script>
-   </body>
+
+      <!-- FOOTER -->
+
+      <footer aria-label="Footer containing Social Icons">
+        <div class="container-footer">
+           <div class="upper">
+              <div class="footernav">
+                 <span><a href="index.html" aria-label="Home">Home</a></span>
+                 <span><a href="medical.html" aria-label="Medical page">Medicine</a></span>
+              </div>
+              <div class="footernav">
+                 <h1>Medical plants</h1>
+              </div>
+              <div class="footernav">
+                 <span><a href="about.html" aria-label="About page">About</a></span>
+                 <span><a href="form.html" aria-label="Contact page">Contacts</a></span>
+              </div>
+           </div>
+           <div class="lower">
+              <div>
+                 <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                 <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                 <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              </div>
+           </div>
+        </div>
+     </footer>
+
+     <!-- Scripts -->
+     
+     <script src="https://kit.fontawesome.com/a1ed16b4ac.js" crossorigin="anonymous"></script>
+  </body>
 </html>

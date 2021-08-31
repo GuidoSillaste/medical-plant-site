@@ -10,8 +10,13 @@
       <link rel="stylesheet" href="assets/css/style.css">
    </head>
    <body>
+
       <!-- HEADER -->
+
       <header>
+
+        <!--Hidden Header Logo appears once on small screen -->
+
          <div class="imageheader">
             <div class="logo">
                <div class="logodiv"><i class="fab fa-pagelines"></i></div>
@@ -20,47 +25,80 @@
                </div>
             </div>
          </div>
-         <nav class="navbar">
+
+         <!-- Navigation Bar -->
+
+         <!--First header logo goes away on small screen -->
+
+         <nav class="navbar" aria-label="Navigation Bar">
             <div class="logoTwo">
-               <div class="logodiv"><i class="fab fa-pagelines"></i></div>
-               <div class="logoheaderTwo">
-                  <h2>Medical plants</h2>
-               </div>
+                <div class="logodiv"><i class="fab fa-pagelines"></i></div>
+                <div class="logoheader">
+                   <h1>Medical plants</h1>
+                </div>
+             </div>
             </div>
+
+            <!-- Nav Links -->
+
             <div class="nave">
                <ul>
-                  <li><a href="index.html" class="active">Home</a></li>
-                  <li><a href="medical.html">Medicine</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="form.html">Contacts</a></li>
+                  <li><a href="index.html" class="active" aria-label="Homepage">Home</a></li>
+                  <li><a href="medical.html" aria-label="Medical plants">Medicine</a></li>
+                  <li><a href="about.html" aria-label="About page">About</a></li>
+                  <li><a href="form.html" aria-label="Contact page">Contacts</a></li>
                </ul>
             </div>
          </nav>
       </header>
-      <main id="main-container">
-         <section class="hero-image">
+
+      <!-- MAIN SECTION -->
+
+      <main id="main-container" aria-label="Homepage main section">
+         <section class="hero-image" aria-label="Hero image">
+
+             <!-- Hero Image container embty-->
+
             <div class="image-container"></div>
+
+            <!-- Text for hero image -->
+
             <div class="hero-header">
                <h2>For Sweet Dreams</h2>
                <p>Lavender will help you get the sweet dream you rightly deserve.</p>
                <div><a href="https://selfhacked.com/blog/lavender-health-benefits/" target="_blank" rel="noopener">Learn More</a></div>
             </div>
          </section>
-         <section id="ndsection">
+
+         <!-- video containing section -->
+
+         <section id="ndsection" aria-label="Kate August take on herbs">
             <div class="container-trailer">
+
+                <!-- Video info -->
+
                <div class="video-info">
                   <div>
                      <h2>Meet Kate August</h2>
                      <p>Herbalist who creates bitters solutions to support health.Showing how medical herbs came to her lfe and how they have helped her since.</p>
                   </div>
                </div>
+
+               <!-- video div -->
+
                <div class="video">
                   <iframe src="https://www.youtube.com/embed/WKsPTepqHxk?controls=0" title="YouTube video player"  allow="accelerometer; encrypted-media;" allowfullscreen></iframe>
                </div>
             </div>
          </section>
-         <section class="rdsection">
+
+         <!-- 3 Medical herbs sectioon -->
+
+         <section class="rdsection" aria-label="Three common herbs">
             <h2>Herbs you can find nearby.</h2>
+            
+            <!-- 3 divs side my side-->
+
             <div class="plantsThree">
                <div class="example">
                   <img class="image normal-img" src="assets/images/great-burdock-3560745_1280.jpg" alt="image from fixabay showing a burdock">
@@ -101,6 +139,9 @@
                </div>
             </div>
             <div class="center-text">
+
+                <!-- Blockquote -->
+
                <blockquote cite="https://quotes-4u.tumblr.com/post/45975870465/httpquotes-4utumblrcom">
                   <p>"Let food be thy medicine and medicine be thy food.”</p>
                   <cite> ― Hippocrates</cite>
@@ -108,31 +149,37 @@
             </div>
          </section>
       </main>
-      <footer>
+
+      <!-- FOOTER -->
+
+      <footer aria-label="Footer containing Social Icons">
          <div class="container-footer">
             <div class="upper">
                <div class="footernav">
-                  <span><a href="index.html">Home</a></span>
-                  <span><a href="medical.html">Medicine</a></span>
+                  <span><a href="index.html" aria-label="Home">Home</a></span>
+                  <span><a href="medical.html" aria-label="Medical page">Medicine</a></span>
                </div>
                <div class="footernav">
                   <h1>Medical plants</h1>
                </div>
                <div class="footernav">
-                  <span><a href="about.html">About</a></span>
-                  <span><a href="form.html">Contacts</a></span>
+                  <span><a href="about.html" aria-label="About page">About</a></span>
+                  <span><a href="form.html" aria-label="Contact page">Contacts</a></span>
                </div>
             </div>
             <div class="lower">
                <div>
-                  <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-                  <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-                  <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
-                  <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                  <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                </div>
             </div>
          </div>
       </footer>
+
+      <!-- Scripts -->
+      
       <script src="https://kit.fontawesome.com/a1ed16b4ac.js" crossorigin="anonymous"></script>
    </body>
 </html>
