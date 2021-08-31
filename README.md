@@ -12,7 +12,7 @@ A live demo of the site can be found  [here](https://guidosillaste.github.io/med
 
 ## Table of contents
 
-- [UX](#UX)
+
   - [User Stories](#User-Stories)
   - [Design](#Design)
   - [Features](#Features)
@@ -26,9 +26,7 @@ A live demo of the site can be found  [here](https://guidosillaste.github.io/med
   - [Media](#Media)
   - [Code](#code)
 
-## UX
-
-### User Stories
+## User Stories
 
 ### Intented users
 
@@ -75,17 +73,28 @@ All imagery provides alternative text to be used in the event that the element c
 
 The features of the site are very basic. Navigation bar stays at the top allowing to access all parts of the site. Footer stays at the bottom of the page giving people the option to navigate to all parts of the site. Landing page is simple whit a opening hero image followed by a herbalist intro and 3 sample plants. medical plants page is again starts whit a hero and is followed by 3x4 boxes of plants based on there difficulty to get. ON about page i make a simple intro to why the page would be benefit you.On contact page i give you a chance to fill in a form if you want to add a plant and why and contact table.
 
+- Navigation Bar
+- navigation bar stays at the top of the screen.On smaller screens the icon moves from navbar to the top of navbar.
+![Navigation Bar](assets/markupimage/header.png)
+
+- Footer
+- The footer has 4 fontawesome icons for facebook, instagram, youtube and twitter and are connect to respective homepages.Footer stays at the bottom of the screen even if no content.
+![Footer](assets/markupimage/footer.png)
+
 - Landing page
+- Landing page has a starting medical plant that is well known but not used for its medical benefits.Background color isset to lightclay.It has one video file that slows the page down a bit and gives 3 more intros to well known plants.
 ![homepage](assets/markupimage/Homepage.png)
 
 - Medical page
+- On this page i added 12 more plants,each whit lowerd accessibility caoused by restriction put on em.
 ![medicalpage](assets/markupimage/Medical-page.png)
 
 - About page
-![homepage](assets/markupimage/about-page.png)
+- Here i simply added reasons to why the site was made.
+![aboutpage](assets/markupimage/about-page.png)
 
 - Contact page
-![homepage]
+![formpage](assets/markupimage/medicalform.png)
 
 #### Features left to implement
 
@@ -97,10 +106,11 @@ On this site many updates are still to follow making it bigger and whit more opt
 
 - HTML
 - CSS
+- Pen and Paper
 
 #### Programs
 
-- Figma for wireframes.
+- Pen and Paper wireframes.
 - Virtual code studio for code
 - Git to store the code changes.
 - Github used to store the repository.
@@ -119,6 +129,17 @@ Some of the new tabs did not work at first was fixed by adding _blank.
 
 The live site has been tested on Firefox. The site has also been tested on several devices using dev tools to confirm that its responsive on all devices.
 
+
+
+## Validator Testing
+
+- HTML no errors were returned when passing through the official [W3C validator](assets/markupimage/validator.png)
+- CSS no errors were returned when passing through the official [Jigsaw validator](assets/markupimage/jigsaw.png)
+
+## Lighthouse Testing
+I ran several tests in Lighthouse and noticed that the performance was low, the reason for this was that the image sizes were too large. I resized the images and readded them and got the score I wanted. The score for Desktop was higher than for Mobile but I am satisfied with the results.
+
+![Light house](assets/markupimage/lighthouse.png)
 ### Deployment
 
 This site was deployed using GitHub Pages with the following the steps below:
@@ -153,3 +174,7 @@ The following sites were used on a more regular basis:
 
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+
+## Acknowledgement
+
+I would like to thank the Code Institute for providing the lessons necessary to be able to complete this project.My mentor Seun Owonikoko for all her guidance.
