@@ -168,12 +168,12 @@ header {
     color:aliceblue;
 }
 .hero-header h1 p,
-.hero-header-medical h1 p {
+.hero-header-medical h2 p {
     color: aliceblue;
     font-weight: 600;
 }
 .hero-header h1,
-.hero-header-medical h1 {
+.hero-header-medical h2 {
     letter-spacing: 0.1em;
     color:aliceblue;
 }
@@ -463,6 +463,9 @@ footer {
     .footernav {
         width: calc(100% / 2);
     }
+    footer {
+        width: 100%;
+    }
 }
 
 /* medical page hero section */
@@ -661,7 +664,7 @@ blockquote {
 .more-container {
     padding: 0 0 50px 0;
 }
-.more-container h1 {
+.more-container h2:nth-child(1) {
     padding: 40px;
     text-align: center;
     font-size: 30px;
@@ -679,23 +682,23 @@ hr {
     align-items: center;
 }
 .contact-container {
-    width: 760px;
     margin: 0 auto;
     background-color: rgb(245, 245, 176);
     padding: 10px;
-    display: grid;
-    grid-template-areas: 'left right';
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
     border: 1px solid;
 }
 .first-text-container {
     width: 360px;
     height: 360px;
     text-align: left;
-    grid-area: right;
     padding: 5px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    box-shadow: -2px -2px 2px 2px gray;
 }
 .first-text-container h3 {
     margin: 5px;
@@ -704,7 +707,6 @@ hr {
 .form-container {
     width: 360px;
     height: 360px;
-    grid-area: left;
     padding: 5px;
 }
 fieldset {
@@ -746,9 +748,35 @@ input[type="submit"]:hover {
     background-color:rgb(19, 233, 19);
 }
 .contact-image {
-    height: 700px;
+    height: 720px;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     background: url('../images/img_6038.jpg') no-repeat center center ;
+}
+@media (max-width: 770px) {
+    .contact-container {
+       flex-direction: row;
+    }
+    .first-text-container {
+        justify-content: space-around;
+        width: 290px;
+    }
+    .first-text-container div:nth-child(1) {
+        text-align: center;
+    }
+    .contact-image {
+        height: auto;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .form-container {
+        width: 290px;
+    }
+}
+@media (max-width: 640px) {
+    .contact-container {
+        flex-direction: column;
+    }
+   
 }
