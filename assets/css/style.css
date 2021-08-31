@@ -567,7 +567,7 @@ footer {
     display: flex;
     align-items: center;
     width: 100%;
-    background: url('../images/R.0c8941fea5896f0b013715e262c307dd.jpg') no-repeat center center;
+    background: url('../images/R.0c8941fea5896f0b013715e262c307dd-min.jpg') no-repeat center center;
 }
 .about-heading {
     display: flex;
@@ -752,7 +752,7 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    background: url('../images/img_6038.jpg') no-repeat center center ;
+    background: url('../images/img_6038-min.jpg') no-repeat center center ;
 }
 @media (max-width: 770px) {
     .contact-container {
